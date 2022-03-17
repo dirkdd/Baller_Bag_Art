@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 {
     if(argc>=2){
         srand(time(NULL));
-        const int scale = 1024;
+        const int scale = 512;
         const string outputFormat = "gif";
         const bool randomized = true;
         const bool unique = true;
@@ -27,20 +27,20 @@ int main(int argc, char *argv[])
         const vector<vector<string>> layerDir = 
         {
     //GOAT   
-    {"BACKGROUND_RARE", "BULLDOG_Pants", "BULLDOG_Shoes", "BULLDOG_Shirt", "BULLDOG_Necklace", "BULLDOG_Move", "BULLDOG_Ball"},
-    {"BACKGROUND_RARE", "SHAM_GOD_Pants", "SHAM_GOD_Shoes", "SHAM_GOD_Shirt", "SHAM_GOD_Necklace", "SHAM_GOD_Move", "SHAM_GOD_Ball"},
+    {"BACKGROUND_RARE", "BULLDOG_Arms", "BULLDOG_Pants", "BULLDOG_Shoes", "BULLDOG_Shirt", "BULLDOG_Necklace", "BULLDOG_Move", "BULLDOG_Ball"},
+    {"BACKGROUND_RARE", "SHAM_GOD_Arms", "SHAM_GOD_Pants", "SHAM_GOD_Shoes", "SHAM_GOD_Shirt", "SHAM_GOD_Necklace", "SHAM_GOD_Move", "SHAM_GOD_Ball"},
     //PLATINUM    
-    {"BACKGROUND", "BETWEEN_BEHIND_THE_BACK_Pants", "BETWEEN_BEHIND_THE_BACK_Shoes", "BETWEEN_BEHIND_THE_BACK_Shirt", "BETWEEN_BEHIND_THE_BACK_Necklace", "BETWEEN_BEHIND_THE_BACK_Move", "BETWEEN_BEHIND_THE_BACK_Ball"},
-    {"BACKGROUND", "BETWEEN_CROSSOVER_Pants", "BETWEEN_CROSSOVER_Shoes", "BETWEEN_CROSSOVER_Shirt", "BETWEEN_CROSSOVER_Necklace", "BETWEEN_CROSSOVER_Move", "BETWEEN_CROSSOVER_Ball"},    
+    {"BACKGROUND", "BETWEEN_BEHIND_THE_BACK_Arms", "BETWEEN_BEHIND_THE_BACK_Pants", "BETWEEN_BEHIND_THE_BACK_Shoes", "BETWEEN_BEHIND_THE_BACK_Shirt", "BETWEEN_BEHIND_THE_BACK_Necklace", "BETWEEN_BEHIND_THE_BACK_Move", "BETWEEN_BEHIND_THE_BACK_Ball"},
+    {"BACKGROUND", "BETWEEN_CROSSOVER_Arms", "BETWEEN_CROSSOVER_Pants", "BETWEEN_CROSSOVER_Shoes", "BETWEEN_CROSSOVER_Shirt", "BETWEEN_CROSSOVER_Necklace", "BETWEEN_CROSSOVER_Move", "BETWEEN_CROSSOVER_Ball"},    
     //GOLD
-    {"BACKGROUND", "HESITATION_Pants", "HESITATION_Shoes", "HESITATION_Shirt", "HESITATION_Necklace", "HESITATION_Move", "HESITATION_Ball"},
-    {"BACKGROUND", "IN_N_OUT_Pants", "IN_N_OUT_Shoes", "IN_N_OUT_Shirt", "IN_N_OUT_Necklace", "IN_N_OUT_Move", "IN_N_OUT_Ball"},
+    {"BACKGROUND", "HESITATION_Arms", "HESITATION_Pants", "HESITATION_Shoes", "HESITATION_Shirt", "HESITATION_Necklace", "HESITATION_Move", "HESITATION_Ball"},
+    {"BACKGROUND", "IN_N_OUT_Arms", "IN_N_OUT_Pants", "IN_N_OUT_Shoes", "IN_N_OUT_Shirt", "IN_N_OUT_Necklace", "IN_N_OUT_Move", "IN_N_OUT_Ball"},
     //SILVER
-    {"BACKGROUND", "SPIN_MOVE_Pants", "SPIN_MOVE_Shoes", "SPIN_MOVE_Shirt", "SPIN_MOVE_Necklace", "SPIN_MOVE_Move", "SPIN_MOVE_Ball"},
-    {"BACKGROUND", "CROSSOVER_Pants", "CROSSOVER_Shoes", "CROSSOVER_Shirt", "CROSSOVER_Necklace", "CROSSOVER_Move", "CROSSOVER_Ball"},
+    {"BACKGROUND", "SPIN_MOVE_Arms", "SPIN_MOVE_Pants", "SPIN_MOVE_Shoes", "SPIN_MOVE_Shirt", "SPIN_MOVE_Necklace", "SPIN_MOVE_Move", "SPIN_MOVE_Ball"},
+    {"BACKGROUND", "CROSSOVER_Arms", "CROSSOVER_Pants", "CROSSOVER_Shoes", "CROSSOVER_Shirt", "CROSSOVER_Necklace", "CROSSOVER_Move", "CROSSOVER_Ball"},
     //BRONZE
-    {"BACKGROUND", "BETWEEN_THE_LEGS_Pants", "BETWEEN_THE_LEGS_Shoes", "BETWEEN_THE_LEGS_Shirt", "BETWEEN_THE_LEGS_Necklace", "BETWEEN_THE_LEGS_Move", "BETWEEN_THE_LEGS_Ball"},
-    {"BACKGROUND", "BEHIND_THE_BACK_Pants", "BEHIND_THE_BACK_Shoes", "BEHIND_THE_BACK_Shirt", "BEHIND_THE_BACK_Necklace", "BEHIND_THE_BACK_Move", "BEHIND_THE_BACK_Ball"}
+    {"BACKGROUND", "BETWEEN_THE_LEGS_Arms", "BETWEEN_THE_LEGS_Pants", "BETWEEN_THE_LEGS_Shoes", "BETWEEN_THE_LEGS_Shirt", "BETWEEN_THE_LEGS_Necklace", "BETWEEN_THE_LEGS_Move", "BETWEEN_THE_LEGS_Ball"},
+    {"BACKGROUND", "BEHIND_THE_BACK_Arms", "BEHIND_THE_BACK_Pants", "BEHIND_THE_BACK_Shoes", "BEHIND_THE_BACK_Shirt", "BEHIND_THE_BACK_Necklace", "BEHIND_THE_BACK_Move", "BEHIND_THE_BACK_Ball"}
    
         };
         
