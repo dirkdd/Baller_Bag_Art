@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
         };
         
         const string name = "Baller Bag Handles";
-        const string description = "Discover 5,000 unique, animated basketball moves.";
+        const string description = "5,000 of the most unique, animated basketball moves in the world.";
         const string baseUri = "https://ballerbag.io";
         const vector<pair<string,string>> extraMetadata = 
         {
