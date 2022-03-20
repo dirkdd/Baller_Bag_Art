@@ -44,21 +44,21 @@ int main(int argc, char *argv[])
    
         };
         
-        const string name = "Baller Bag";
-        const string description = "This NFT... blah blah blah";
+        const string name = "Baller Bag Handles";
+        const string description = "Discover 5,000 unique, animated basketball moves.";
         const string baseUri = "https://ballerbag.io";
         const vector<pair<string,string>> extraMetadata = 
         {
-        {"Creator", "Justin Ho"}
+        {"Creator", "Justin Ho"}    
         };
         
         //only if u select Solana Chain
         const string symbol = "BallerBag";
         const string family = "BallerBag";
-        const string sellerFeeBasisPoints = "1000";
+        const string sellerFeeBasisPoints = "750";
         const string externalUrl = "ballerbag.io";
-        const vector<string> address = {"1312s21s12s21s21s1", "dsadasd2111d12d"};
-        const vector<string> share = {"90", "10"};
+        const vector<string> address = {"3XoRfWGPCoovn7wnyuwy7iXG8fTnh1nLw91zFnvsL4vL"};
+        const vector<string> share = {"100"};
         
         //only if u want to generate a preview_gif or combine video + audio
         const int firstMedia = 0;
