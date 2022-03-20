@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         const bool randomized = false;
         const bool unique = true;
         const bool shuffleOutput = true;
-        vector<int> collectionSize = {15,15,15,15,15,15,15,15,15,15};
+        vector<int> collectionSize = {25,25,125,125,350,350,1025,1025,1025,1025};
         const vector<vector<string>> layerDir = 
         {
     //GOAT   
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
    
         };
         
-        const string name = "Baller Bag Handles";
+        const string name = "Baller Bag Handles Package";
         const string description = "5,000 of the most unique, animated basketball moves in the world.";
         const string baseUri = "https://ballerbag.io";
         const vector<pair<string,string>> extraMetadata = 
