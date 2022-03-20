@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         const bool randomized = false;
         const bool unique = true;
         const bool shuffleOutput = true;
-        vector<int> collectionSize = {25,25,125,125,350,350,1025,1025,1025,1025};
+        vector<int> collectionSize = {25,25,125,125,150,150,150,150,150,150};
         const vector<vector<string>> layerDir = 
         {
     //GOAT   
