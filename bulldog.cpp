@@ -23,11 +23,12 @@ int main(int argc, char *argv[])
         const bool randomized = true;
         const bool unique = true;
         const bool shuffleOutput = true;
-        vector<int> collectionSize = {25};
+        vector<int> collectionSize = {25,25};
         const vector<vector<string>> layerDir = 
         {
     //GOAT   
-    {"BACKGROUND_RARE", "BULLDOG_Pants", "BULLDOG_Arms", "BULLDOG_Shoes", "BULLDOG_Shirt", "BULLDOG_Necklace", "BULLDOG_Move", "BULLDOG_Ball", "GOAT_XP"}
+    {"BACKGROUND_RARE", "BULLDOG_Pants", "BULLDOG_Arms", "BULLDOG_Shoes", "BULLDOG_Shirt", "BULLDOG_Necklace", "BULLDOG_Move", "BULLDOG_Ball","GOAT_RANGE", "GOAT_XP"},
+    {"BACKGROUND_RARE", "SHAM_GOD_Pants", "SHAM_GOD_Arms", "SHAM_GOD_Shoes", "SHAM_GOD_Shirt", "SHAM_GOD_Necklace", "SHAM_GOD_Move", "SHAM_GOD_Ball","GOAT_RANGE", "GOAT_XP"}
    
         };
         
