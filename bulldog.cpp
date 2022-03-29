@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         const bool randomized = true;
         const bool unique = true;
         const bool shuffleOutput = true;
-        vector<int> collectionSize = {25,25,25,25,25,25,25,25};
+        vector<int> collectionSize = {25,25,25,25,25,25,25,25,25,25};
         const vector<vector<string>> layerDir = 
         {
     //GOAT   
@@ -34,7 +34,9 @@ int main(int argc, char *argv[])
     {"BACKGROUND", "HESITATION_Pants", "HESITATION_Arms", "HESITATION_Shoes", "HESITATION_Shirt", "HESITATION_Necklace", "HESITATION_Move", "HESITATION_Ball", "Range", "XP"},
     {"BACKGROUND", "IN_N_OUT_Pants", "IN_N_OUT_Arms", "IN_N_OUT_Shoes", "IN_N_OUT_Shirt", "IN_N_OUT_Necklace", "IN_N_OUT_Move", "IN_N_OUT_Ball", "Range", "XP"},
     {"BACKGROUND", "SPIN_MOVE_Pants", "SPIN_MOVE_Arms", "SPIN_MOVE_Shoes", "SPIN_MOVE_Shirt", "SPIN_MOVE_Necklace", "SPIN_MOVE_Move", "SPIN_MOVE_Ball", "Range", "XP"},
-    {"BACKGROUND", "CROSSOVER_Pants", "CROSSOVER_Arms", "CROSSOVER_Shoes", "CROSSOVER_Shirt", "CROSSOVER_Necklace", "CROSSOVER_Move", "CROSSOVER_Ball", "Range", "XP"}
+    {"BACKGROUND", "CROSSOVER_Pants", "CROSSOVER_Arms", "CROSSOVER_Shoes", "CROSSOVER_Shirt", "CROSSOVER_Necklace", "CROSSOVER_Move", "CROSSOVER_Ball", "Range", "XP"},
+    {"BACKGROUND", "BETWEEN_THE_LEGS_Pants", "BETWEEN_THE_LEGS_Arms", "BETWEEN_THE_LEGS_Shoes", "BETWEEN_THE_LEGS_Shirt", "BETWEEN_THE_LEGS_Necklace", "BETWEEN_THE_LEGS_Move", "BETWEEN_THE_LEGS_Ball", "Range", "XP"},
+    {"BACKGROUND", "BEHIND_THE_BACK_Pants", "BEHIND_THE_BACK_Arms", "BEHIND_THE_BACK_Shoes", "BEHIND_THE_BACK_Shirt", "BEHIND_THE_BACK_Necklace", "BEHIND_THE_BACK_Move", "BEHIND_THE_BACK_Ball", "Range", "XP"}
    
         };
         
