@@ -1,1 +1,0 @@
-g++ ./library/dnaGenerator.cpp ./library/metadataFunction.cpp ./library/myFFmpegConversion.cpp ./library/utils.cpp bulldog.cpp -o bulldog
