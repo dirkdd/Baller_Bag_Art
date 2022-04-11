@@ -1,0 +1,22 @@
+find . -type f -name '*.json' -exec sed -i '' s/BULLDOG\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/SHAM_GOD\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/BETWEEN_BEHIND_THE_BACK\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/BETWEEN_CROSSOVER\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/HESITATION\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/IN_N_OUT\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/SPIN_MOVE\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/CROSSOVER\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/BETWEEN_THE_LEGS\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/BEHIND_THE_BACK\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/Skill\_//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/\_Common//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/\_Rare//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/\_RARE//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/\_BACKGROUND//g {} +
+
+find . -type f -name '*.json' -exec sed -i '' s/gif\"\,/ddd\"\,/g {} +
+find . -type f -name '*.json' -exec sed -i '' s/.jpg//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/.gif//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/.png//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/ddd\"\,/gif\"\,/g {} +
+
