@@ -1,0 +1,1 @@
+g++ ./library/dna_generator.cpp ./library/metadata_function.cpp ./library/my_ffmpeg_conversion.cpp ./library/utils.cpp main.cpp -o main
