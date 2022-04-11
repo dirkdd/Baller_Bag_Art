@@ -13,6 +13,7 @@ find . -type f -name '*.json' -exec sed -i '' s/\_Common//g {} +
 find . -type f -name '*.json' -exec sed -i '' s/\_Rare//g {} +
 find . -type f -name '*.json' -exec sed -i '' s/\_RARE//g {} +
 find . -type f -name '*.json' -exec sed -i '' s/\_BACKGROUND//g {} +
+find . -type f -name '*.json' -exec sed -i '' s/BACKGROUND/Background/g {} +
 
 find . -type f -name '*.json' -exec sed -i '' s/gif\"\,/ddd\"\,/g {} +
 find . -type f -name '*.json' -exec sed -i '' s/.jpg//g {} +
