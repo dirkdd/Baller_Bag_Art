@@ -24,8 +24,8 @@ int main(int argc, char *argv[])
         vector<int> collectionSize = {25,25,150,150,775,775,775,775,775,775};
         const vector<vector<string>> layerDir = 
         {
-    {"BACKGROUND_RARE", "BULLDOG_Glasses", "BULLDOG_Pants", "BULLDOG_Arms", "BULLDOG_Shoes", "BULLDOG_Shirt", "BULLDOG_Necklace", "BULLDOG_Move", "BULLDOG_Ball","Skill_Range_Rare", "Skill_XP_Rare"},
-    {"BACKGROUND_RARE", "SHAM_GOD_Glasses", "SHAM_GOD_Pants", "SHAM_GOD_Arms", "SHAM_GOD_Shoes", "SHAM_GOD_Shirt", "SHAM_GOD_Necklace", "SHAM_GOD_Move", "SHAM_GOD_Ball","Skill_Range_Rare", "Skill_XP_Rare"},
+    {"BACKGROUND_RARE", "BULLDOG_Glasses", "BULLDOG_Pants", "BULLDOG_Arms", "BULLDOG_Shoes", "BULLDOG_Shirt", "BULLDOG_Necklace", "BULLDOG_Move", "BULLDOG_Ball", "Skill_Range_Rare", "Skill_XP_Rare"},
+    {"BACKGROUND_RARE", "SHAM_GOD_Glasses", "SHAM_GOD_Pants", "SHAM_GOD_Arms", "SHAM_GOD_Shoes", "SHAM_GOD_Shirt", "SHAM_GOD_Necklace", "SHAM_GOD_Move", "SHAM_GOD_Ball", "Skill_Range_Rare", "Skill_XP_Rare"},
     {"BACKGROUND", "BETWEEN_BEHIND_THE_BACK_Glasses", "BETWEEN_BEHIND_THE_BACK_Pants", "BETWEEN_BEHIND_THE_BACK_Arms", "BETWEEN_BEHIND_THE_BACK_Shoes", "BETWEEN_BEHIND_THE_BACK_Shirt", "BETWEEN_BEHIND_THE_BACK_Move", "BETWEEN_BEHIND_THE_BACK_Ball", "Skill_Range_Common", "Skill_XP_Common"},
     {"BACKGROUND", "BETWEEN_CROSSOVER_Glasses", "BETWEEN_CROSSOVER_Pants", "BETWEEN_CROSSOVER_Arms", "BETWEEN_CROSSOVER_Shoes", "BETWEEN_CROSSOVER_Shirt", "BETWEEN_CROSSOVER_Move", "BETWEEN_CROSSOVER_Ball", "Skill_Range_Common", "Skill_XP_Common"},
     {"BACKGROUND", "HESITATION_Glasses", "HESITATION_Pants", "HESITATION_Arms", "HESITATION_Shoes", "HESITATION_Shirt", "HESITATION_Move", "HESITATION_Ball", "Skill_Range_Common", "Skill_XP_Common"},
