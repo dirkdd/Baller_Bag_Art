@@ -9,7 +9,6 @@ find . -type f -name '*.json' -exec sed -i '' s/CROSSOVER\_//g {} +
 find . -type f -name '*.json' -exec sed -i '' s/BETWEEN_THE_LEGS\_//g {} +
 find . -type f -name '*.json' -exec sed -i '' s/BEHIND_THE_BACK\_//g {} +
 find . -type f -name '*.json' -exec sed -i '' s/Skill\_//g {} +
-find . -type f -name '*.json' -exec sed -i '' s/\_Common//g {} +
 find . -type f -name '*.json' -exec sed -i '' s/\_Rare//g {} +
 find . -type f -name '*.json' -exec sed -i '' s/\_RARE//g {} +
 find . -type f -name '*.json' -exec sed -i '' s/\_BACKGROUND//g {} +
